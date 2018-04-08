@@ -19,4 +19,5 @@ function deepestChild() {
   while (element.children.length > 0) {
     element = element.children[0] 
   }
+  return element
 }
